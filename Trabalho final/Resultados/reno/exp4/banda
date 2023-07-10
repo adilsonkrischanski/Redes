@@ -1,0 +1,2 @@
+5mbps
+sudo tc qdisc change dev wlp2s0 root netem rate 5mbit
